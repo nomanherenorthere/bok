@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+
+  @font-face {
+    src: url("/assets/font/Cairo/Cairo-Regular.ttf");
+    font-family: 'Cairo';
+  }
+body{
+    padding: 10px;
+    font-family: 'Cairo';
+}
+.cc{
+    display: flex;
+    flex-direction: column;
+}
+.cc .c{
+    padding: 10px;
+    box-shadow: 6px 6px 30px rgba(7, 7, 7, 0.062), -6px -6px 30px rgba(41, 40, 40, 0.062);
+    border-radius: 13px;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.btns button{
+    border: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.btns .o{
+    background-color: #55C2A3;
+}
+.btns .del{
+    background-color: #9E1728;
+}
